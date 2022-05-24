@@ -1,4 +1,4 @@
-using CleanArchMvc.Domain.Entities;
+﻿using CleanArchMvc.Domain.Entities;
 using FluentAssertions;
 using System;
 using Xunit;
@@ -10,7 +10,8 @@ namespace CleanArchMvc.Domain.Tests
         [Fact]
         public void CreateProduct_WithValidParameters_ResultObjectValidState()
         {
-            Action action = () => new Product(1, "Product Name", "description Product", 299, 3, "imagem.png");
+            Action action = () => new Product(1, "Product Name", "Product Description", 9.99m,
+                99, "product image");
             action.Should()
                 .NotThrow<CleanArchMvc.Domain.Validation.DomainExceptionValidation>();
         }
@@ -18,7 +19,9 @@ namespace CleanArchMvc.Domain.Tests
         [Fact]
         public void CreateProduct_NegativeIdValue_DomainExceptionInvalidId()
         {
-            Action action = () => new Product(-1, "Product Name", "description Product", 299, 3, "imagem.png");
+            Action action = () => new Product(-1, "Product Name", "Product Description", 9.99m,
+                99, "product image");
+
             action.Should().Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
                 .WithMessage("Invalid Id value.");
         }
@@ -26,57 +29,63 @@ namespace CleanArchMvc.Domain.Tests
         [Fact]
         public void CreateProduct_ShortNameValue_DomainExceptionShortName()
         {
-            Action action = () => new Product(1, "Pr", "description Product", 299, 3, "imagem.png");
+            Action action = () => new Product(1, "Pr", "Product Description", 9.99m, 99,
+                "product image");
             action.Should().Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
-                .WithMessage("Invalid name. too short, minimum 3 charecters");
+                 .WithMessage("Invalid name, too short, minimum 3 characters");
         }
 
         [Fact]
-        public void CreateProduct_MissingNameValue_DomainExceptionRequiredName()
+        public void CreateProduct_LongImageName_DomainExceptionLongImageName()
         {
-            Action action = () => new Product(1, "", "description Product", 299, 3, "imagem.png");
-            action.Should().Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
-                .WithMessage("Invalid name. Name is required");
+            Action action = () => new Product(1, "Product Name", "Product Description", 9.99m,
+                99, "product image toooooooooooooooooooooooooooooooooooooooooooo loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooogggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg");
+
+            action.Should()
+                .Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
+                 .WithMessage("Invalid image name, too long, maximum 250 characters");
         }
 
         [Fact]
-        public void CreateProduct_MissingDescriptionValue_DomainExceptionRequiredName()
+        public void CreateProduct_WithNullImageName_NoDomainException()
         {
-            Action action = () => new Product(1, "Product Name", "", 299, 3, "imagem.png");
-            action.Should().Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
-                .WithMessage("Invalid description.Description is required");
+            Action action = () => new Product(1, "Product Name", "Product Description", 9.99m, 99, null);
+            action.Should().NotThrow<CleanArchMvc.Domain.Validation.DomainExceptionValidation>();
         }
 
         [Fact]
-        public void CreateProduct_ShortDescriptionValue_DomainExceptionRequiredName()
+        public void CreateProduct_WithNullImageName_NoNullReferenceException()
         {
-            Action action = () => new Product(1, "Product Name", "de", 299, 3, "imagem.png");
-            action.Should().Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
-                .WithMessage("Invalid description. too short, minimum 5 charecters");
+            Action action = () => new Product(1, "Product Name", "Product Description", 9.99m, 99, null);
+            action.Should().NotThrow<NullReferenceException>();
+        }
+
+
+        [Fact]
+        public void CreateProduct_WithEmptyImageName_NoDomainException()
+        {
+            Action action = () => new Product(1, "Product Name", "Product Description", 9.99m, 99, "");
+            action.Should().NotThrow<CleanArchMvc.Domain.Validation.DomainExceptionValidation>();
         }
 
         [Fact]
-        public void CreateProduct_MissingPriceValue_DomainExceptionRequiredName()
+        public void CreateProduct_InvalidPriceValue_DomainException()
         {
-            Action action = () => new Product(1, "Product Name", "description Product", -1, 3, "imagem.png");
+            Action action = () => new Product(1, "Product Name", "Product Description", -9.99m,
+                99, "");
             action.Should().Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
-                .WithMessage("Invalid price value");
+                 .WithMessage("Invalid price value");
         }
 
-        [Fact]
-        public void CreateProduct_MissingStockValue_DomainExceptionRequiredName()
+        [Theory]
+        [InlineData(-5)]
+        public void CreateProduct_InvalidStockValue_ExceptionDomainNegativeValue(int value)
         {
-            Action action = () => new Product(1, "Product Name", "description Product", 299, -1, "imagem.png");
+            Action action = () => new Product(1, "Pro", "Product Description", 9.99m, value,
+                "product image");
             action.Should().Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
-                .WithMessage("Invalid stock value");
+                   .WithMessage("Invalid stock value");
         }
 
-        [Fact]
-        public void CreateProduct_MissingImageValue_DomainExceptionRequiredName()
-        {
-            Action action = () => new Product(1, "Product Name", "description Product", 299, 3, "imagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagemimagem");
-            action.Should().Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
-                .WithMessage("Invalid image name. too long, maximum 250 charecters");
-        }
     }
 }

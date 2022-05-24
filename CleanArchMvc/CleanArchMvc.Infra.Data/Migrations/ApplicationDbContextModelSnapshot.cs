@@ -48,7 +48,7 @@ namespace CleanArchMvc.Infra.Data.Migrations
                         new
                         {
                             Id = 3,
-                            Name = "Acessários"
+                            Name = "Acessórios"
                         });
                 });
 
