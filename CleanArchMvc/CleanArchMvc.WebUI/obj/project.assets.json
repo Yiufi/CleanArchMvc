@@ -38,7 +38,6 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-<<<<<<< HEAD
       "MediatR/9.0.0": {
         "type": "package",
         "compile": {
@@ -62,9 +61,6 @@
         }
       },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.4": {
-=======
-      "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.13": {
->>>>>>> parent of c5bbb72 (CQRS)
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Razor.Language": "5.0.4",
@@ -1765,7 +1761,7 @@
         "dependencies": {
           "AutoMapper": "10.1.1",
           "CleanArchMvc.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4"
+          "MediatR": "9.0.0"
         },
         "compile": {
           "bin/placeholder/CleanArchMvc.Application.dll": {}
@@ -1807,11 +1803,7 @@
           "CleanArchMvc.Application": "1.0.0",
           "CleanArchMvc.Domain": "1.0.0",
           "CleanArchMvc.Infra.Data": "1.0.0",
-<<<<<<< HEAD
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0"
-=======
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4"
->>>>>>> parent of c5bbb72 (CQRS)
         },
         "compile": {
           "bin/placeholder/CleanArchMvc.Infra.IoC.dll": {}
@@ -1868,7 +1860,6 @@
         "logo.png"
       ]
     },
-<<<<<<< HEAD
     "MediatR/9.0.0": {
       "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
       "type": "package",
@@ -1902,10 +1893,6 @@
     },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.4": {
       "sha512": "RX0L0R8tcnQq15iluVk5GUQV7ScMl98WdHayMvFbvZTzlOgf3WcwdcqATfhqcgPOg6tnf6yf+A0fE5YPPNverQ==",
-=======
-    "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.13": {
-      "sha512": "DwK9l7HFpbnXwCV0hHaAGPPWsTjV+Uf3qgEGwrjcG6imuuXQh+Q782hTyij1PQwj5ABoIeP2Nk66t5M1MoKM7g==",
->>>>>>> parent of c5bbb72 (CQRS)
       "type": "package",
       "path": "microsoft.aspnetcore.mvc.razor.extensions/5.0.4",
       "files": [
