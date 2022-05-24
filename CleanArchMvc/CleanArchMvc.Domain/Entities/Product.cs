@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchMvc.Domain.Entities
 {
-    public sealed class Product : Entity
+    public sealed class Product : Entity    
     {
         public string Name { get; private set; }
 
@@ -21,7 +21,7 @@ namespace CleanArchMvc.Domain.Entities
 
         public Product(string name, string description, decimal price, int stock, string image)
         {
-            ValidateDomain(name, description, price, stock, image);
+            ValidateDomain( name,description,price, stock,image);
         }
 
         public Product(int id, string name, string description, decimal price, int stock, string image)

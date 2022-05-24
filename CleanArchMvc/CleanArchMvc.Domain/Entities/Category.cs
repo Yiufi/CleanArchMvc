@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchMvc.Domain.Entities
 {
-    public sealed class Category : Entity
+    public sealed class Category : Entity   
     {
         public string Name { get; private set; }
 
@@ -16,7 +16,7 @@ namespace CleanArchMvc.Domain.Entities
             ValidateDomain(name);
         }
 
-        public void Update(string name)
+        public void Update(string name) 
         {
             ValidateDomain(name);
         }
@@ -30,12 +30,12 @@ namespace CleanArchMvc.Domain.Entities
 
         public ICollection<Product> Products { get; set; }
 
-        private void ValidateDomain(string name)
+        private void ValidateDomain(string name) 
         {
             DomainExceptionValidation.When(string.IsNullOrEmpty(name),
                 "Invalid name. Name is required");
 
-            DomainExceptionValidation.When(name.Length < 3, "Invalid name. too short, minimum 3 charecters");
+            DomainExceptionValidation.When(name.Length < 3,"Invalid name. too short, minimum 3 charecters");
 
             Name = name;
         }
