@@ -363,6 +363,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "MediatR/9.0.0": {
         "runtime": {
           "lib/netstandard2.1/MediatR.dll": {
@@ -390,6 +391,9 @@
         }
       },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.4": {
+=======
+      "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.13": {
+>>>>>>> parent of c5bbb72 (CQRS)
         "dependencies": {
           "Microsoft.AspNetCore.Razor.Language": "5.0.4",
           "Microsoft.CodeAnalysis.Razor": "5.0.4"
@@ -1543,7 +1547,7 @@
         "dependencies": {
           "AutoMapper": "10.1.1",
           "CleanArchMvc.Domain": "1.0.0",
-          "MediatR": "9.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4"
         },
         "runtime": {
           "CleanArchMvc.Application.dll": {}
@@ -1579,7 +1583,11 @@
           "CleanArchMvc.Application": "1.0.0",
           "CleanArchMvc.Domain": "1.0.0",
           "CleanArchMvc.Infra.Data": "1.0.0",
+<<<<<<< HEAD
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0"
+=======
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4"
+>>>>>>> parent of c5bbb72 (CQRS)
         },
         "runtime": {
           "CleanArchMvc.Infra.IoC.dll": {}
@@ -3303,6 +3311,7 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
+<<<<<<< HEAD
     "MediatR/9.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3318,6 +3327,9 @@
       "hashPath": "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.4": {
+=======
+    "Microsoft.AspNetCore.Mvc.Razor.Extensions/5.0.13": {
+>>>>>>> parent of c5bbb72 (CQRS)
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-RX0L0R8tcnQq15iluVk5GUQV7ScMl98WdHayMvFbvZTzlOgf3WcwdcqATfhqcgPOg6tnf6yf+A0fE5YPPNverQ==",
