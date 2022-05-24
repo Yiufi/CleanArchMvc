@@ -23,8 +23,6 @@ C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsof
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
-C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.dll
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -109,8 +107,6 @@ C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsof
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.dll
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
-C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Core.dll
-C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -406,9 +402,17 @@ C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\P
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Products\Edit.cshtml.g.cs
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Products\Delete.cshtml.g.cs
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Products\Details.cshtml.g.cs
+C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\appsettings.json
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.WebUI.StaticWebAssets.xml
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\appsettings.json
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.WebUI.exe
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.WebUI.deps.json
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.WebUI.runtimeconfig.json
@@ -431,8 +435,6 @@ C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\Clean
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
-C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -517,8 +519,6 @@ C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\Clean
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
-C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Core.dll
-C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -703,6 +703,9 @@ C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\Clean
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Humanizer.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -717,6 +720,8 @@ C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\Clean
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
@@ -789,6 +794,8 @@ C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\Clean
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.TagHelpers.input.cache
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.TagHelpers.output.cache
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.RazorCoreGenerate.cache
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Create.cshtml.g.cs
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Delete.cshtml.g.cs
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Details.cshtml.g.cs
@@ -802,6 +809,7 @@ C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\Clean
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Products\Edit.cshtml.g.cs
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Products\Index.cshtml.g.cs
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs

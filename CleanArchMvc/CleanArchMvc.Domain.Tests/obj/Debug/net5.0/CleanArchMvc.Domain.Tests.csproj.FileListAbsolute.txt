@@ -104,11 +104,13 @@ C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.Domain.Tests\obj\Debug\net5.0\CleanA
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.Domain.Tests\obj\Debug\net5.0\ref\CleanArchMvc.Domain.Tests.dll
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.Domain.Tests\obj\Debug\net5.0\CleanArchMvc.Domain.Tests.pdb
 C:\curso_cleanarq\CleanArchMvc\CleanArchMvc.Domain.Tests\obj\Debug\net5.0\CleanArchMvc.Domain.Tests.genruntimeconfig.cache
-C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\testhost.exe
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\testhost.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\testhost.exe
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\CleanArchMvc.Domain.Tests.deps.json
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\CleanArchMvc.Domain.Tests.runtimeconfig.json
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\CleanArchMvc.Domain.Tests.runtimeconfig.dev.json
@@ -117,7 +119,6 @@ C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\Clean
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\FluentAssertions.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
-C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
