@@ -394,6 +394,8 @@ C:\Users\diego.p.campos\Desktop\estudos\Curso Clean Arch\CleanArchMvc\CleanArchM
 C:\Users\diego.p.campos\Desktop\estudos\Curso Clean Arch\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.Application.pdb
 C:\Users\diego.p.campos\Desktop\estudos\Curso Clean Arch\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Index.cshtml.g.cs
 C:\Users\diego.p.campos\Desktop\estudos\Curso Clean Arch\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Products\Index.cshtml.g.cs
+C:\Users\diego.p.campos\Desktop\estudos\Curso Clean Arch\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.dll
+C:\Users\diego.p.campos\Desktop\estudos\Curso Clean Arch\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\appsettings.json
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.WebUI.exe
@@ -688,6 +690,8 @@ C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\Clean
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Humanizer.dll
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.dll
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
