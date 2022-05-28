@@ -22,7 +22,24 @@ namespace CleanArchMvc.API.Controllers
         {
             _authentication = authentication;
             _configuration = configuration; 
-            throw new ArgumentNullException(nameof(authentication));
+            //throw new ArgumentNullException(nameof(authentication));
+        }
+
+        [HttpPost("CreateUser")]
+        public async Task<ActionResult> CreateUser([FromBody] LoginModel userInfo)
+        {
+            var result = await _authentication.RegisterUser(userInfo.Email, userInfo.Password);
+
+            if (result)
+            {
+                //return GenerateToken(userInfo);
+                return Ok($"User {userInfo.Email} was created successfully");
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Invalid Login attempt.");
+                return BadRequest(ModelState);
+            }
         }
 
         [HttpPost("LoginUser")]
