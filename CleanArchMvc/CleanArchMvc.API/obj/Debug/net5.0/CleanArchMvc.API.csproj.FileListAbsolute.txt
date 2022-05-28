@@ -30,7 +30,6 @@ C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\Clean
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -75,3 +74,4 @@ C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\Clean
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.API\obj\Debug\net5.0\CleanArchMvc.API.pdb
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.API\obj\Debug\net5.0\CleanArchMvc.API.genruntimeconfig.cache
 C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.API\obj\Debug\net5.0\ref\CleanArchMvc.API.dll
+C:\Users\diego.p.campos\Desktop\projects\new Git\CleanArchMvc\CleanArchMvc\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -27,6 +27,10 @@ namespace CleanArchMvc.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddInfrastructureAPI(Configuration);
+
+            //ativar autenticacao e validar o token
+            services.AddInfrastructureAPI(Configuration);
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
