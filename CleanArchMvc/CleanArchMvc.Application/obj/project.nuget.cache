@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ptxPp20z4OCwEhdMgMKgJV07qz1uK3ULHTDvhOvV9L/0kx0mP50rIt2iZ85FbnMwbXb+4DJAnQzJkfJ0Nr8opw==",
+  "dgSpecHash": "4kgeotHFfcZl9JCPPj8/ZJTdTrwTd/7X6APN3B+HkiZLl7tonj0LQqvy+Dkq4fgi3WA2IqO1l8sVoTAbbArPWA==",
   "success": true,
   "projectFilePath": "C:\\Users\\diego.p.campos\\Desktop\\projects\\new Git\\CleanArchMvc\\CleanArchMvc\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\diego.p.campos\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "C:\\Users\\diego.p.campos\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
-    "C:\\Users\\diego.p.campos\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\diego.p.campos\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+    "C:\\Users\\diego.p.campos\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\diego.p.campos\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\diego.p.campos\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\diego.p.campos\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
